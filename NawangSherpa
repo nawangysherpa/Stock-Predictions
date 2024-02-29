@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <meta name="viewport"
+            content="width=device-width, initial scale=1.0">
+        <title>Stock Market Predictions</title>
+        <link rel="stylesheet"
+              href="styles.css">
+          </head>
+        <body>
+          <header>
+            <h1>Stock Market Prediction</title>
+          </header>
+          <main>
+            <section id="prediction">
+              <h2>Today's predictions</h2>
+              <p id="prediction text">loading...</p>
+            </section>
+            <section id="form">
+              <h2>Get Prediction</h2>
+              <labe; for="stock symbol">Enter stock symbol:</label><input type="text"
+                                                                          id="stock-symbol" placeholder="e.g.,AAPL">
+              <button
+                      onclick="get prediction()">Get prediction </button>
+              </section>
+              </main>
+            <script src="script.js"></script>
+            </body>
+          </html>
